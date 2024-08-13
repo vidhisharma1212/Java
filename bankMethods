@@ -26,7 +26,7 @@ class BankAccount {
         System.out.println("Account Details:-");
         System.out.println("Account Number: "+ accountNumber);
         System.out.println("Account Holder Name: "+ accountHolderName);
-        System.out.println("Balalnce: "+balance);
+        System.out.println("Balance: "+balance);
     }
     
     public static void main(String[] args) {
