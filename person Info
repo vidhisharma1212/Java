@@ -1,0 +1,42 @@
+class Person
+{
+    String name;
+    int age;
+    String address;
+    
+    Person(){
+        name= "ram";
+        age=18;
+        address= "3rd cross, gandhi ngr, ch-75";
+    }
+    
+    Person(String n, int a, String add){
+        name= n;
+        age=a;
+        address= add;
+    }
+    
+    public void displayPersonInfo(){
+        System.out.println("Person Information");
+        System.out.println("Name : "+  name);
+        System.out.println("Age : "+ age);
+        System.out.println("Address : "+ address);
+    }
+    public static void main(String args[])
+    {
+        
+    }
+}
+
+public class MyClass{
+    public static void main(String args[]){
+        //invokes the default constructor
+        Person p1= new Person();
+        
+        //invokes the parameterized contructor
+        Person p2= new Person("Raj", 19, "main st, rajeev ngr, bgr-25");
+        
+        p1.displayPersonInfo();
+        p2.displayPersonInfo();
+    }
+}
